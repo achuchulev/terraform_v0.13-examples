@@ -1,6 +1,6 @@
 variable "environment" {
   type = set(string)
-  default = ["DEV","TEST","PROD"]
+  default = ["DEV","TEST","QA","PROD"]
 }
 
 module "multienv" {
