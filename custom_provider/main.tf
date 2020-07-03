@@ -1,3 +1,12 @@
+terraform {
+  required_providers {
+    git = {
+      source = "innovationnorway/git"
+      version = "0.1.2"
+    }
+  }
+}
+
 provider "git" {}
 
 data "git_repository" "example" {
