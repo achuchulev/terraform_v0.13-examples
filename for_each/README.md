@@ -4,7 +4,7 @@
 - terraform v0.13
 - git
 
-### Terraform v0.13 introduces a `for_each` capability for entire modules, allowing a single module block to produce multiple module instances systematically:
+## Terraform v0.13 introduces a `for_each` capability for entire modules, allowing a single module block to produce multiple module instances systematically:
 
 > In this example `multienv` module will produce three module instances for __DEV__, __TEST__ and __PROD__
 
