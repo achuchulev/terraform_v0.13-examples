@@ -4,7 +4,7 @@ variable "environment" {
 }
 
 module "multienv" {
-  source   = "./modules/null-module"
+  source   = "../modules/null-module"
   for_each = var.environment
   env      = each.value
 }
