@@ -6,12 +6,12 @@
 
 ### Terraform v0.13 introduces a `for_each` capability for entire modules, allowing a single module block to produce multiple module instances systematically:
 
-#### In this example `multienv` module will produce three module instances for __DEV__, __TEST__ and __PROD__
+#### In this example `multienv` module will produce three module instances for __DEV__, __TEST__, __QA__ and __PROD__
 
 ```
 variable "environment" {
   type    = set(string)
-  default = ["DEV", "TEST", "PROD"]
+  default = ["DEV","TEST","QA","PROD"]
 }
 
 module "multienv" {
