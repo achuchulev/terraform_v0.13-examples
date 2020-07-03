@@ -23,7 +23,7 @@ module "multienv" {
 
 ### Usage
 
-- git clone 
-- cd /for_each
-- terraform init
-- terraform plan/apply
+- $ git clone https://github.com/achuchulev/terraform_v0.13-examples.git
+- $ cd for_each
+- $ terraform init
+- $ terraform plan/apply
