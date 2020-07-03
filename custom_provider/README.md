@@ -19,13 +19,11 @@ terraform {
 
 - Then, run terraform init
 
-### Install location
+### 3rd party provider installation location
 
 ```
 $ tree .terraform/
 .terraform/
-├── modules
-│   └── modules.json
 └── plugins
     ├── registry.terraform.io
     │   ├── hashicorp
